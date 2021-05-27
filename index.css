@@ -3,4 +3,19 @@
   font-family: "Noto Sans", sans-serif;
   text-align: center;
   background-color: #7289da;
+  font-size: 12px;
+}
+#links{
+font-weight: bold;
+font-size: 1em;
+}
+#other-pages-container{
+background-color: white;
+border: 0.083em solid black;
+}
+#other-pages-container a{
+color: black;
+}
+#other-pages-container a:hover{
+color: blue;
 }
