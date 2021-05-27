@@ -1,1 +1,0 @@
-document.getElementById("links").style.fontWeight= "bold";
