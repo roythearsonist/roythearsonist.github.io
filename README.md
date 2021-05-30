@@ -1,1 +1,2 @@
-# My-Website
+# theblobscp.github.io 
+Just a simple project for my main domain.
