@@ -5,3 +5,8 @@
   background-color: #7289da;
   font-size: 12px;
 }
+.white-container{
+  background-color: white;
+  border: 0.083em solid black;
+  border-radius: 10px;
+}
