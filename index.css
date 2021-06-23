@@ -3,7 +3,7 @@
   font-family: "Noto Sans", sans-serif;
   text-align: center;
   background-color: #7289da;
-  font-size: 12px;
+  font-size: 16px;
 }
 .white-container {
   background-color: white;
@@ -15,4 +15,16 @@ nav {
   left: -10000px;
   background-color: white;
   border: 0.083em solid black;
+  text-align: left !important;
+  width: 15%;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+}
+.links {
+  font-weight: bold;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  width: 30%;
 }
