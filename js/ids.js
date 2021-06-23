@@ -1,6 +1,9 @@
 function getids() {
- var projects = document.getElementById("projects");
+  var projects = document.getElementById("projects");
 }
-getids();
-projects.style.textAlign = "left";
-projects.style.flexDirection = "column";
+function projectsid() {
+  getids();
+  projects.style.textAlign = "left";
+  projects.style.flexDirection = "column";
+}
+projectsid();
