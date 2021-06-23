@@ -5,8 +5,14 @@
   background-color: #7289da;
   font-size: 12px;
 }
-.white-container{
+.white-container {
   background-color: white;
   border: 0.083em solid black;
   border-radius: 10px;
+}
+nav {
+  top: -10000px;
+  left: -10000px;
+  background-color: white;
+  border: 0.083em solid black;
 }
