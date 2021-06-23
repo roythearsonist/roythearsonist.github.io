@@ -1,4 +1,4 @@
 function getids() {
- document.getElementById("links");
+ document.getElementById("projects");
 }
 getids();
