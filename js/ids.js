@@ -6,4 +6,7 @@ function projectsid() {
   element.style.textAlign = "left";
   elemeny.style.flexDirection = "column";
 }
+function useallfunctions() {
 projectsid();
+}
+useallfunctions();
