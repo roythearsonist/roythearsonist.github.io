@@ -52,9 +52,10 @@ ul {
   color: rgb(0, 0, 0);
   padding: 16px;
   font-size: 16px;
-  border: solid 4px var(--bordercolor);
+  border: solid 4px var(--bordercolor) !important;
   border: none;
   cursor: pointer;
+  border-radius: 8px !important;
 }
 
 .dropdown:hover .dropdown-content {
@@ -83,4 +84,24 @@ a, a:hover, a:focus, a:active {
 
 .navbar>li {
   padding-right: 8px;
+  border: solid 2px white 8px;
+}
+
+.content {
+  border: solid 2px white;
+  border-radius: 10px;
+  position: relative;
+  height: 190px;
+  top: 200px;
+  padding-top: 10px;
+  margin-right: 75%;
+  flex: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 60%;
+  left: 20%
+}
+
+.intro, .intro2 {
+  margin-top: 80px !important;
 }
