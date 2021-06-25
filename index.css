@@ -4,27 +4,112 @@
   text-align: center;
   background-color: #7289da;
   font-size: 16px;
+  --bordercolor: rgb(58, 0, 216);
 }
+
 .white-container {
   background-color: white;
   border: 0.083em solid black;
   border-radius: 10px;
 }
-nav {
-  top: -10000px;
-  left: -10000px;
-  background-color: white;
-  border: 0.083em solid black;
-  text-align: left !important;
-  width: 17%;
-  border-radius: 10px;
-  display:flex;
-  flex-direction: column;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
+.socials>li {
+  margin: 10px 1px;
+  width: 90%;
+  flex-shrink: 0;
+  padding-top: 13%;
+  padding-bottom: 13%;
+  background-color: #7289da;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px;
+  border: 2px solid var(--bordercolor);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  transition: all 500ms;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: solid 4px var(--bordercolor);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.navbtn {
+  background-color: #7289da;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: solid 4px var(--bordercolor) !important;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .links {
   font-weight: bold;
   font-size: 1em;
   display: flex;
   flex-direction: row;
   width: 30%;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  align-items: center;
+}
+
+.navbar>li {
+  padding-right: 8px;
+  border: solid 2px white 8px;
+}
+
+.content {
+  border: solid 2px white;
+  border-radius: 10px;
+  position: relative;
+  height: 190px;
+  top: 200px;
+  padding-top: 10px;
+  margin-right: 75%;
+  flex: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 60%;
+  left: 20%
+}
+
+.intro, .intro2 {
+  margin-top: 80px !important;
+}
+
+.logopic {
+  width: 5%;
+  height: 7%;
+  position: absolute;
+  top: 5px;
+  right: 0%;
 }
