@@ -136,11 +136,11 @@ a, a:hover, a:focus, a:active {
 
 .vertline {
     border: 2px solid var(--bordercolor);
-    height: 200px;
+    height: 125px;
     left: 98%;
     width: 1px !important;
     position: absolute;
-    top: -200px;
+    top: -125px;
 }
 
 .projbio {
