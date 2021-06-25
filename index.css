@@ -105,3 +105,11 @@ a, a:hover, a:focus, a:active {
 .intro, .intro2 {
   margin-top: 80px !important;
 }
+
+.logopic {
+  width: 5%;
+  height: 7%;
+  position: absolute;
+  top: 5px;
+  right: 0%;
+}
