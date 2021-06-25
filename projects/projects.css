@@ -129,16 +129,30 @@ a, a:hover, a:focus, a:active {
     position: relative;
     border-radius: 2px;
     border: 2px solid var(--bordercolor);
-    display: table-cell;
-    vertical-align: middle;
+    display: inline-table;
+    vertical-align: top;
     text-align: center;
 }
 
 .vertline {
     border: 2px solid var(--bordercolor);
-    height: 347px;
-    left: 100%;
+    height: 200px;
+    left: 98%;
     width: 1px !important;
     position: absolute;
     top: -200px;
+}
+
+.projbio {
+    vertical-align: middle;
+    overflow: scroll;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 50%;
+    border: 2px solid #7289da;
+}
+
+a.col {
+    color: #7289da
 }
