@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import "fonts.css";
 :root {
-  font-family: "Noto Sans", sans-serif;
+  font-family: var(--noto-sans);
   text-align: center;
   background-color: #7289da;
   font-size: 16px;
