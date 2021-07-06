@@ -1,9 +1,10 @@
 function projectsid() {
-  let element = document.getElementById("projects");
-  element.style.textAlign = "left";
-  element.style.flexDirection = "column";
+  let projects = document.getElementById("projects");
+  projects.style.textAlign = "left";
+  projects.style.flexDirection = "column";
+
 }
 function useallfunctions() {
-projectsid();
+  projectsid();
 }
 useallfunctions();
