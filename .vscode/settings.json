@@ -1,0 +1,18 @@
+{
+  "compile-hero.disable-compile-files-on-did-save-code": false,
+  "html.suggest.html5": true,
+  "editor.linkedEditing": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "**/*.html": "html"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "typescript": "html"
+  },
+  "html.autoClosingTags": true
+}
