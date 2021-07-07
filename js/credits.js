@@ -8,8 +8,6 @@ var libraries = {
 };
 var owner = document.getElementById("owner");
 var contrib = document.getElementById("contrib");
-var libcontainer = document.getElementById("libcontainer");
 
 owner.innerHTML = "<div>Owner:" + credits.owner + "</div>";
 contrib.innerHTML = "<div>Contributor:" + credits.contribs[0] + "</div>";
-libcontainer.innerHTML = "<div>Libraries used in this website:</div>";
