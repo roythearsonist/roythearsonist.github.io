@@ -1,0 +1,9 @@
+{
+  "name": "theblobscp.github.io",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3"
+  }
+}
