@@ -1,0 +1,10 @@
+$nav-bg: var(--bs-white);
+$nav-border: 10px solid black;
+$nav-pos: -10000px;
+
+nav {
+    border: $nav-border;
+    background-color: $nav-bg;
+    top: $nav-pos;
+    left: $nav-pos;
+}
