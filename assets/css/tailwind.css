@@ -32232,6 +32232,10 @@ video {
   content: none;
 }
 
+:root {
+  background-color: var(--bs-indigo);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
