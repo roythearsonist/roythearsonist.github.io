@@ -4,3 +4,5 @@ package-lock.json
 bundle
 assets/index.scss
 assets/css/index.css
+.sass-cache/
+*.map
