@@ -1,7 +1,10 @@
 {
   "name": "theblobscp.github.io",
   "dependencies": {
-    "tailwindcss": "^2.2.7"
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.0.9",
+    "tailwindcss": "^2.2.7",
+    "yarn": "^1.22.11"
   },
   "devDependencies": {
     "@types/node": "^16.4.3",
