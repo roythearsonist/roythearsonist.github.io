@@ -4,7 +4,8 @@
     "tailwindcss": "^2.2.7"
   },
   "devDependencies": {
-    "@types/node": "^16.4.3"
+    "@types/node": "^16.4.3",
+    "eslint": "^7.31.0"
   },
   "scripts": {
     "compile": "npm run sass && npm run tailwind",
