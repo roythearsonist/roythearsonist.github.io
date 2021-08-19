@@ -623,7 +623,8 @@ video {
 }
 
 :root {
-  background-color: var(--bs-indigo);
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
 }
 
 @media (min-width: 640px) {
